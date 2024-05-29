@@ -17,7 +17,7 @@ class Audio {
   void CreateWavHeader(byte* header, int waveDataSize);
 
 public:
-  static constexpr const size_t record_number = 200;
+  static constexpr const size_t record_number = 220;
 //  static constexpr const size_t record_number = 400;
 //  static constexpr const size_t record_length = 200;
   static constexpr const size_t record_length = 150;

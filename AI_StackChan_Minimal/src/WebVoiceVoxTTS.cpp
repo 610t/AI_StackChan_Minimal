@@ -59,8 +59,10 @@ String https_get(const char* url, const char* root_ca) {
 
 bool voicevox_tts_json_status(const char* url, const char* json_key, const char* root_ca) {
   bool json_data = false;
-  DynamicJsonDocument doc(1000);
-  String payload = https_get(url, root_ca);
+  // DynamicJsonDocument doc(1000);
+  DynamicJsonDocument doc(768); // add for M5 avatar
+  // DynamicJsonDocument doc(128); // add for M5 avatar
+  String payload = https_get(url, root_ca); // ★後でrootcaが必須か、確認する
   if(payload != ""){
     Serial.println(payload);
     DeserializationError error = deserializeJson(doc, payload.c_str());
@@ -100,7 +102,8 @@ String voicevox_tts_url(const char* url, const char* root_ca) {
           if (httpCode == HTTP_CODE_OK || httpCode == HTTP_CODE_MOVED_PERMANENTLY) {
             String payload = https.getString();
             Serial.println(payload);
-            DynamicJsonDocument doc(1024);
+            // DynamicJsonDocument doc(1024);
+            DynamicJsonDocument doc(768);
             DeserializationError error = deserializeJson(doc, payload.c_str());
             if (error) {
               Serial.print(F("deserializeJson() failed: "));
@@ -165,6 +168,7 @@ void Voicevox_tts(char *text,char *tts_parms){
 
   if(URL == "") return;
   file = new AudioFileSourceHTTPSStream(URL.c_str(), root_ca);
-  buff = new AudioFileSourceBuffer(file, 10240);
+  // buff = new AudioFileSourceBuffer(file, 10240);
+  buff = new AudioFileSourceBuffer(file, 5120); // add for M5 avatar
   playMP3(buff);
 }
