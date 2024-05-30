@@ -15,9 +15,9 @@
 
 #include <Arduino.h>
 #include <M5UnitGLASS2.h> // Add for SSD1306
-#include <SPIFFS.h>       // Add for Web server setting
+#include <SPIFFS.h>       // Add for Web Setting
 #include <M5Unified.h>
-#include <nvs.h>          // Add for Web server setting
+#include <nvs.h>          // Add for Web Setting
 #include <Avatar.h>       // Add for M5 avatar
 #include <AudioOutput.h>
 #include "AudioFileSourceICYStream.h"
@@ -37,11 +37,11 @@
 #include "CloudSpeechClient.h"
 #include <deque>
 #include <FastLED.h>
-#include <ESP32WebServer.h> // Add for Web server setting
+#include <ESP32WebServer.h> // Add for Web Setting
 
 using namespace m5avatar;   // Add for M5 avatar
 Avatar avatar;              // Add for M5 avatar
-ESP32WebServer server(80);  // Add for Web server setting
+ESP32WebServer server(80);  // Add for Web Setting
 
 /// set M5Speaker virtual channel (0-7)
 static constexpr uint8_t m5spk_virtual_channel = 0;
@@ -464,7 +464,7 @@ void lipSync(void *args)  // Add for M5 avatar
   }
 }
 
-void Wifi_setup() { // Add for Web server setting (SmartConfig)
+void Wifi_setup() { // Add for Web Setting (SmartConfig)
   // Serial.println("WiFiに接続中");
   Serial.println("接続中:WiFi"); M5.Display.println("接続中:WiFi");
   WiFi.disconnect();
@@ -572,7 +572,7 @@ void setup()
   }
 
   /// ネットワークに接続
-  Wifi_setup(); // Add for SmartConfig
+  Wifi_setup(); // Add for Web Setting
   M5.Lcd.fillScreen(BLACK);
   M5.Lcd.setCursor(0, 0);
   M5.Lcd.println("接続OK-WiFi");
@@ -611,20 +611,20 @@ void setup()
     Serial.println("An Error has occurred while mounting SPIFFS");
   }  
 
-  server.begin(); // Add for Web site setting
+  server.begin(); // Add for Web Setting
   Serial.println("設定URL："); M5.Lcd.println("設定URL："); 
-  M5.Lcd.setTextSize(1.3);                    // Adjust for SSD1306 (Connect info)
+  M5.Lcd.setTextSize(1.3);              // Adjust for SSD1306 (Connect info)
   Serial.print(WiFi.localIP()); M5.Lcd.print(WiFi.localIP());
   delay(6000);
 
-	avatar.setScale(.32);               // Adjust for SSD1306
-	avatar.setPosition(-92,-100);       // Adjust for SSD1306
-	avatar.init();                      // Add for M5 avatar
-  avatar.addTask(lipSync, "lipSync"); // Add for M5 avatar
+  avatar.setScale(.32);               // Adjust for SSD1306
+  avatar.setPosition(-92,-100);       // Adjust for SSD1306
+  avatar.init();                      // Add for M5 avatar
+  avatar.addTask(lipSync, "lipSync");   // Add for M5 avatar
   avatar.setSpeechFont(&fonts::lgfxJapanGothic_16);  // Adjust for SSD1306
 
   set_led_color(CRGB::Black);
-  M5.Lcd.setTextSize(1);                    // Adjust for SSD1306 (Connect info)
+  M5.Lcd.setTextSize(1);                // Adjust for SSD1306 (Connect info)
 
 }
 
@@ -664,7 +664,7 @@ void loop()
     String ret;
     
     Serial.print("OPENAI_API_KEY: ");    Serial.println(OPENAI_API_KEY);
-    if(OPENAI_API_KEY == ""){  // Add for Web server setting
+    if(OPENAI_API_KEY == ""){  // Add for Web Setting
       Serial.println("Error: API-Keyが未設定");
       ret = "キー未設定";
     } else if(OPENAI_API_KEY != STT_API_KEY){
@@ -687,7 +687,7 @@ void loop()
       set_led_color(CRGB::LightGreen);
       Serial.println(ret);
       if (!mp3->isRunning()) {
-        String response = ""; // Add for Web server setting
+        String response = ""; // Add for Web Setting
         if(OPENAI_API_KEY == ""){
           response = "初めに、URL：" + WiFi.localIP().toString() + "をブラウザに入力し、APIキーを設定してください";
         } else {
@@ -736,6 +736,6 @@ void loop()
       delay(5);
     }
   } else {
-    server.handleClient();  // Add for Web server setting
+    server.handleClient();  // Add for Web Setting
   }
 }
