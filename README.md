@@ -60,8 +60,11 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 後で更新します。<br>
 
 1. Wifi接続をスマホアプリ: Esp touchから設定
+
 https://x.com/UtaAoya/status/1794857755968508118
+
 2. 各種 APIキーをWebブラウザから設定
+
 https://x.com/UtaAoya/status/1794864738746478920
 
 <br>
