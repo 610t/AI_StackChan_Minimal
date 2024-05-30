@@ -12,7 +12,7 @@ AIスタックチャン - ミニマル(Minimal)です。robo8080さんの"AIｽ�
 	- 操作しやすいUI：無線でWifi/APIキー等が設定できます(プログラムおよびSDカードへの記載が不要)
 - 使用Webサービスと利用料金(低価格モデルを使えば、ほぼ料金が発生しませんが、ご注意ください)
 	- 対話型生成AI： [ChatGPT](https://platform.openai.com/docs/overview)
-		- [料金 - GPT-XXX](https://openai.com/api/pricing/)
+		- [料金 - GPT-3.5 Turbo](https://openai.com/api/pricing/)
 	- 音声合成：[Web版 VOICEVOX（高速）](https://voicevox.su-shiki.com/su-shikiapis/)
 		- [料金 - 無料(個人利用を想定)]
 	- 音声認識：[OpenAI Whisper](https://openai.com/api/pricing/) もしくは [Google Cloud STT](https://cloud.google.com/speech-to-text?hl=ja) のどちらかを選択
