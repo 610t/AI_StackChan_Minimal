@@ -30,7 +30,7 @@ AIスタックチャン ミニマル(Minimal)です。robo8080さんの"AIｽﾀ
 Atom Echoだけでも動作します！が、以下のモノを組立てることで【より可愛いミニマル】に仕上がります<br>
 -  ATOM Echo(マイコン本体)[約2,000から2,500円]
 	- プログラムを動作させる本体。ディスプレイにつなぐと顔と文字でコミュニケーションができます
-		- <p><a href="https://www.mouser.jp/ProductDetail/M5Stack/C008-C?qs=81r%252BiQLm7BQ%2FzW%2Fdq5IHnA%3D%3D" target="_blank">マウザー：2,066円</a></p>
+		- <p><a href="https://www.mouser.jp/ProductDetail/M5Stack/C008-C?qs=81r%252BiQLm7BQ%2FzW%2Fdq5IHnA%3D%3D" target="_new">マウザー：2,066円</a></p>
 		- https://www.switch-science.com/products/6347
 -  有機ELディスプレイ(0.96インチ 128×64ドット)[約600円]
 	- SSD1306を搭載かつ、外装ケースに入る <B>サイズ：幅：25.2mm x 高さ：26mm</B>を想定しています
