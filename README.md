@@ -51,7 +51,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 
 使用しているライブラリ等は"platformio.ini"を参照してください。<br>
 
-~~【2024/5/30の時点では、β版です。7月までに大幅にUpdateします】~~<br>
+【2024/5/30の時点では、β版です。近日中にUpdateします】<br>
 
 ---
 
@@ -63,6 +63,9 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 1. Wifi接続をスマホアプリ: Esp touchから設定
 
 https://x.com/UtaAoya/status/1794857755968508118
+
+参考：Esp touchについて
+https://lab.seeed.co.jp/entry/2022/10/17/120000
 
 2. 各種 APIキーをWebブラウザから設定
 
