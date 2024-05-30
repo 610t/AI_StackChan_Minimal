@@ -8,7 +8,7 @@ AIスタックチャン - ミニマル(Minimal)です。robo8080さんの"AIｽ�
 特徴<br>
 - 誰でも勢いで始められるよう「おもちゃ感覚で使えるミニマル構成」にリ・デザイン
 	- 買いやすい価格：3,000円台
-	- 作りやすい構成：M5 Burnerでプログラム無しでもインストール可(準備中)。またワイヤーとはめ込みのみ(特別な工具・はんだ付け不要)
+	- 作りやすい構成：M5 Burnerでプログラム無しでもインストール可(準備中)。ハードは「ワイヤーとはめ込み」のみ(特別な工具・はんだ付け不要)
 	- 操作しやすいUI：無線でWifi/APIキー等が設定できます(プログラムおよびSDカードへの記載が不要)
 - 使用Webサービスと利用料金(低価格モデルを使えば、ほぼ料金が発生しませんが、ご注意ください)
 	- 対話型生成AI： [ChatGPT](https://platform.openai.com/docs/overview)
@@ -93,11 +93,10 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 ---
 
 
-### 使い方 （画像クリックで動画に飛びます）###
+### 使い方(画像クリックで動画に飛びます) ###
 1. プログラムをビルドまたはソフトをインストール後、Wifi接続をスマホアプリ: Esp touch※から設定<br>
 [![手順01](images/x_stackchan01.jpg)](https://x.com/UtaAoya/status/1794857755968508118)
-	- ※参考：Esp touchについて
-	https://lab.seeed.co.jp/entry/2022/10/17/120000
+	- [参考：Esp touch：Seeed Studio XIAO ESP32C3 SmartConfigでスマートフォンからWi-Fiを設定](https://lab.seeed.co.jp/entry/2022/10/17/120000)
 
 2. 各種 APIキーをWebブラウザから設定<br>
 [![手順02](images/x_stackchan02.jpg)](https://x.com/UtaAoya/status/1794864738746478920)
