@@ -33,13 +33,13 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 	- SSD1306を搭載かつ、外装ケースに入る サイズ：幅：25.2mm x 高さ：26mmを想定しています
 		- https://akizukidenshi.com/catalog/g/g115870
 - ジャンパーワイヤ[メス-オス）（10cm）[約700円]
-	- ATOM Echoと有機ELディスプレイを接続するのに使用します。10cmでなくても構いませんが、外装に入る短いワイヤーをお使いください
+	- ATOM Echoと有機ELディスプレイを接続するのに使用します。外装に入る短いワイヤーをお使いください
 		- https://www.amazon.co.jp/dp/B072N2WR5N/
 - 外装ケース[無料]
-	- このページで3Dモデルを公開しています。3Dプリンタで印刷ください
-		-https://github.com/A-Uta/AI_StackChan_Minimal/tree/main/AI_StackChan_Minimal/3D_model 
+	- ここのページで、3Dモデルを公開しています。DL後、3Dプリンタで印刷してお使いください
+		- https://github.com/A-Uta/AI_StackChan_Minimal/tree/main/AI_StackChan_Minimal/3D_model 
 
-### 制作の流れ ###
+### ハード制作の流れ(イメージ) ###
 ![画像1](images/making_all01_A.jpg)<br><br>
 
 ### プログラムをビルドするのに必要な物 ###
