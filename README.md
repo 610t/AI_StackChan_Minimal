@@ -72,6 +72,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 	- <B>注意：無料サービスのため、込み合っている時間には音声再生が途切れることがあります</B>
 - Google Cloud Speech to Text
 	- <B>注意：音声認識にWhisperを使うときは不要です</B>
+	- [参考：Google音声認識APIとは？特徴や料金プラン、使い方を画像付きで徹底解説！](https://www.notta.ai/blog/how-to-use-google-speech-to-text-api)
 	- [Google Cloud Platformのウェブサイト](https://cloud.google.com/?hl=ja/ "Title")にアクセスして、アカウントを作成します。メールアドレスと携帯電話番号が必要です。カードの登録が必須ですが、無料トライアルや無料枠があります。
 	- アカウント作成後、APIキーを取得します。
 	- APIキーでSpeech to Textを有効にするのを忘れないで下さい。
