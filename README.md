@@ -32,7 +32,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 	- プログラムを動作させる本体。ディスプレイにつなぐと顔と文字でコミュニケーションができます
 		- <a href="https://www.mouser.jp/ProductDetail/M5Stack/C008-C?qs=81r%252BiQLm7BQ%2FzW%2Fdq5IHnA%3D%3D" target="_new">マウザー：2,066円</a>
 		- <a href="https://www.switch-science.com/products/6347" target="_new">スイッチサイエンス：2,475円</a>
-		- [![スイッチサイエンス：2,475円]](https://www.switch-science.com/products/6347)
+		- [スイッチサイエンス：2,475円](https://www.switch-science.com/products/6347)
 -  有機ELディスプレイ(0.96インチ 128×64ドット)[約600円]
 	- SSD1306を搭載かつ、外装ケースに入る <B>サイズ：幅：25.2mm x 高さ：26mm</B>を想定しています
 		- <a href="https://akizukidenshi.com/catalog/g/g115870" target="_new">秋月電子通商：580円</a>
