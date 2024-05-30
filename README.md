@@ -2,9 +2,10 @@
 AIｽﾀｯｸﾁｬﾝ ミニマル(Minimal)です。β版として雑な公開ですが、改善点をいただければ幸いです。
 <br><br>
 
-![画像1](images/AI_StackChan_Minimal01.jpg)<br><br>
+<img src="images/AI_StackChan_Minimal01.jpg" width="50%"><br><br>
 
 特徴<br>
+
 https://x.com/robo8080/status/1781203208846860503
 
 * 知ってしまった人が勢いで始められるよう「おもちゃ感覚で使えるミニマル構成」にリ・デザイン[安く/作り易く(はんだ作業不要)/操作し易い]
