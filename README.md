@@ -33,12 +33,12 @@ AIスタックチャン - ミニマル(Minimal)です。robo8080さんの"AIｽ�
 Atom Echoだけでも動作します！が、以下のモノを組立てることで【より可愛いミニマル】に仕上がります<br>
 -  ATOM Echo(マイコン本体)[約2,000から2,500円]
 	- プログラムを動作させる本体。ディスプレイにつなぐと顔と文字でコミュニケーションができます
-	- <B>注意：スピーカーが超小型のため,小さい音量/単位時間でお使いください。</B>会話は問題ありませんが音楽再生には向いていません
+	- <B>注意：スピーカーが超小型のため、小さい音量/単位時間でお使いください。</B>会話は問題ありませんが音楽再生には向いていません
 		- <a href="https://www.mouser.jp/ProductDetail/M5Stack/C008-C?qs=81r%252BiQLm7BQ%2FzW%2Fdq5IHnA%3D%3D" target="_blank">マウザー：2,066円</a>
 		- [スイッチサイエンス：2,475円](https://www.switch-science.com/products/6347)
 -  有機ELディスプレイ(0.96インチ 128×64ドット)[約600円]
 	- SSD1306を搭載したもの。4本のワイヤーで本体につなぎます(I2C接続)
-	- <B>注意：多様なサイズがあるようです。外装ケースに入る <B>サイズ：幅：25.2mm x 高さ：26mm</B>か、ご確認ください
+	- <B>注意：多様なサイズがあるため、外装ケースに入る <B>サイズ：幅：25.2mm x 高さ：26mm</B>か、ご確認ください
 		- <a href="https://akizukidenshi.com/catalog/g/g115870" target="_blank">秋月電子通商：580円</a>
 - ジャンパーワイヤ[メス-オス）（10cm）[約700円]
 	- ATOM Echoと有機ELディスプレイを接続するのに使用します。外装に入る短いワイヤーをお使いください
@@ -60,6 +60,25 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 ![画像1](images/making_all01_A.jpg)<br><br>
 
 
+---
+
+### 各Webサービス APIキーの取得 ###
+
+- ChatGPTのAPIキー取得方法は以下の通りです。(詳細はこのページ一番下のリンクを参照してください。)
+	- [OpenAIのウェブサイト](https://openai.com/ "Title")にアクセスして、アカウントを作成します。メールアドレスと携帯電話番号が必要です。
+	- アカウント作成後、APIキーを発行します。APIキーは有料ですが、無料期間やクレジットがあります。<br>
+
+- Web版 VOICEVOX のAPIキーの取得方法は、このページ（[ttsQuestV3Voicevox](https://github.com/ts-klassen/ttsQuestV3Voicevox/ "Title")）の一番下の方を参照してください。)<br>
+	- VOICEVOXのAPIキー取得後忘れずに“VOICEVOX用API利用登録”をしてください。そうしないと音声合成が高速にならないので音声が途切れ途切れになります。
+
+- Google Cloud Speech to TextのAPIキー取得方法は以下の通りです。(詳細はこのページ一番下のリンクを参照してください。)
+	- <B>注意：音声認識にWhisperを使うときは不要です</B>
+	- [Google Cloud Platformのウェブサイト](https://cloud.google.com/?hl=ja/ "Title")にアクセスして、アカウントを作成します。メールアドレスと携帯電話番号が必要です。カードの登録が必須ですが、無料トライアルや無料枠があります。
+	- アカウント作成後、APIキーを取得します。
+	- APIキーでSpeech to Textを有効にするのを忘れないで下さい。
+---
+
+
 ### M5 Burnerでソフトのインストール(準備中) ###
 - [参考ページ：M5Burner v3の使いかた(さいとうてつや様)](https://zenn.dev/saitotetsuya/articles/m5stack_m5burner_v3)
  
@@ -69,14 +88,14 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 - VSCode<br>
 - PlatformIO<br>
 
-使用しているライブラリ等は"platformio.ini"を参照してください。<br>
+使用しているライブラリ等は"platformio.ini"を参照してください。ただし文字表示をスクロールするために、Avatarライブラリをlibフォルダにコピーして変更を加えています（platformio.iniではロードしない）<br>
 
 ---
 
 
 ### 使い方 ###
 後で更新します。<br>
-1. プログラムをビルド後、Wifi接続をスマホアプリ: Esp touch※から設定<br>
+1. プログラムをビルドまたはソフトをインストール後、Wifi接続をスマホアプリ: Esp touch※から設定<br>
 [![手順01](images/x_stackchan01.jpg)](https://x.com/UtaAoya/status/1794857755968508118)
 	- ※参考：Esp touchについて
 	https://lab.seeed.co.jp/entry/2022/10/17/120000
@@ -84,7 +103,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 2. 各種 APIキーをWebブラウザから設定<br>
 [![手順02](images/x_stackchan02.jpg)](https://x.com/UtaAoya/status/1794864738746478920)
 
-3. 1クリックで"おしゃべり"、2クリックで"設定状態の表示"で遊ぶことができます<br>
+3. 1クリックで"おしゃべり"、ダブルクリックで"設定状態の表示"で遊ぶことができます<br>
 [![手順03](images/x_stackchan03.jpg)](https://x.com/UtaAoya/status/1796206485296562645)
 
 
