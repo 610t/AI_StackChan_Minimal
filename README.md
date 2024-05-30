@@ -71,13 +71,17 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 
 ### 使い方 ###
 後で更新します。<br>
-1. Wifi接続をスマホアプリ: Esp touch※から設定<br>
+1. プログラムをビルド後、Wifi接続をスマホアプリ: Esp touch※から設定<br>
 [![手順01](images/x_stackchan01.jpg)](https://x.com/UtaAoya/status/1794857755968508118)
 	- ※参考：Esp touchについて
 	https://lab.seeed.co.jp/entry/2022/10/17/120000
 
 2. 各種 APIキーをWebブラウザから設定<br>
-[![手順01](images/x_stackchan02.jpg)](https://x.com/UtaAoya/status/1794864738746478920)
+[![手順02](images/x_stackchan02.jpg)](https://x.com/UtaAoya/status/1794864738746478920)
+
+3. <br>
+[![手順03](images/x_stackchan03.jpg)](https://x.com/UtaAoya/status/1794864738746478920)
+
 
 <br>
 <br>
