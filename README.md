@@ -58,7 +58,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
  5. 3DModelのBackを後ろから被せ、耳の取っ掛かりでパチッと締めます
  6. 完成です
 ![画像1](images/making_all01_A.jpg)<br><br>
-動画はこちら
+- 1連の流れ(動画))
 [![手順01H](images/x_stackchan01h.jpg)](https://x.com/UtaAoya/status/1794201200294035694)
 
 ---
