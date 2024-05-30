@@ -2,12 +2,13 @@
 AIスタックチャン ミニマル(Minimal)です。robo8080さんの"AIｽﾀｯｸﾁｬﾝ2"および"ATOM Echo版"をベースに、必要最低限の機能を搭載しました(サーボ動作,ウェイクワード等除く)
 <br><br>
 
-<img src="images/AI_StackChan_Minimal01.jpg" width="50%"><br><br>
+<img src="images/AI_StackChan_Minimal01.jpg" width="50%"><br>
+[![StackChan4ALL](images/StackChan4ALL.jpg)](https://x.com/robo8080/status/1781203208846860503)
 
 特徴<br>
-- 勢いで始められるよう「おもちゃ感覚で使えるミニマル構成」にリ・デザイン
+- 誰でも勢いで始められるよう「おもちゃ感覚で使えるミニマル構成」にリ・デザイン
 	- 買いやすい価格：3,000円台
-	- 作りやすい構成：ワイヤーとはめ込みのみ(はんだ作業不要)
+	- 作りやすい構成：ワイヤーとはめ込みのみ(工具・はんだはんだ付け不要)
 	- 操作しやすいUI：無線でWifi/APIキー等が設定できます(プログラムおよびSDカードへの記載が不要)
 - 使用Webサービス
 	- 対話型生成AI：ChatGPT
