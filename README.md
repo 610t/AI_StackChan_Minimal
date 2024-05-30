@@ -28,11 +28,12 @@ AIスタックチャン ミニマル(Minimal)です。robo8080さんの"AIｽﾀ
 
 ### AIスタックチャン ミニマルを作るのに必要な物、及び作り方 ###
 Atom Echoだけでも動作します！が、以下のモノを組立てることで【より可愛いミニマル】に仕上がります<br>
--  ATOM Echo(マイコン本体)[約2,500円]
+-  ATOM Echo(マイコン本体)[約2,000から2,500円]
 	- プログラムを動作させる本体。ディスプレイにつなぐと顔と文字でコミュニケーションができます
-		-  https://www.switch-science.com/products/6347
+		- [マウザー：2,066円](https://www.mouser.jp/ProductDetail/M5Stack/C008-C?qs=81r%252BiQLm7BQ%2FzW%2Fdq5IHnA%3D%3D){:target="_blank"}
+		- https://www.switch-science.com/products/6347
 -  有機ELディスプレイ(0.96インチ 128×64ドット)[約600円]
-	- SSD1306を搭載かつ、外装ケースに入る サイズ：幅：25.2mm x 高さ：26mmを想定しています
+	- SSD1306を搭載かつ、外装ケースに入る <B>サイズ：幅：25.2mm x 高さ：26mm</B>を想定しています
 		- https://akizukidenshi.com/catalog/g/g115870
 - ジャンパーワイヤ[メス-オス）（10cm）[約700円]
 	- ATOM Echoと有機ELディスプレイを接続するのに使用します。外装に入る短いワイヤーをお使いください
