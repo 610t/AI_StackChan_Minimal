@@ -8,28 +8,28 @@ AIｽﾀｯｸﾁｬﾝ ミニマル(Minimal)です。β版として雑な公開
 【ｽﾀｯｸﾁｬﾝは高嶺の花のロボットであって欲しくないなー】<br>
 https://x.com/robo8080/status/1781203208846860503
 
-* 知ってしまった人が勢いで始められるよう「おもちゃ感覚で使えるミニマル構成」にリ・デザイン[安く/作り易く(はんだ作業不要)/操作し易い]
-* robo8080さんの"AIｽﾀｯｸﾁｬﾝ2"および"ATOM Echo版"をベースに、必要最低限の機能を搭載(サーボ動作,ウェイクワード等除く)
-* アプリおよびWebブラウザより、Wifi/APIキー等が設定できます(プログラムへの直接記載、およびSDカードへの記載が不要)
-* 使用Webサービス
-** 対話型生成AI：ChatGPT
-*** https://platform.openai.com/docs/overview
-** 音声合成：Web版 VOICEVOX
-*** https://voicevox.su-shiki.com/su-shikiapis/
-** 音声認識："OpenAI Whisper"か"Google Cloud STT"のどちらかを選択
-*** https://cloud.google.com/speech-to-text?hl=ja
+- 知ってしまった人が勢いで始められるよう「おもちゃ感覚で使えるミニマル構成」にリ・デザイン[安く/作り易く(はんだ作業不要)/操作し易い]
+- robo8080さんの"AIｽﾀｯｸﾁｬﾝ2"および"ATOM Echo版"をベースに、必要最低限の機能を搭載(サーボ動作,ウェイクワード等除く)
+- アプリおよびWebブラウザより、Wifi/APIキー等が設定できます(プログラムへの直接記載、およびSDカードへの記載が不要)
+- 使用Webサービス
+	- 対話型生成AI：ChatGPT
+		- https://platform.openai.com/docs/overview
+	- 音声合成：Web版 VOICEVOX
+		- https://voicevox.su-shiki.com/su-shikiapis/
+	- 音声認識："OpenAI Whisper"か"Google Cloud STT"のどちらかを選択
+		- https://cloud.google.com/speech-to-text?hl=ja
 <br>
 
-まずは命を削ってAIｽﾀｯｸﾁｬﾝを公開してくれた、robo8080さんに大大感謝いたします。<br>
-Google Cloud STTは、”MhageGH”さんの [esp32_CloudSpeech](https://github.com/MhageGH/esp32_CloudSpeech/ "Title") を参考にさせて頂きました。ありがとうございました。<br>
-"OpenAI Whisper"が使えるようにするにあたって、多大なご助言を頂いた”イナバ”さん、”kobatan”さんに感謝致します。<br>
+- まずは命を削ってAIｽﾀｯｸﾁｬﾝを公開してくれた、robo8080さんに大大感謝いたします。<br>
+- Google Cloud STTは、”MhageGH”さんの [esp32_CloudSpeech](https://github.com/MhageGH/esp32_CloudSpeech/ "Title") を参考にさせて頂きました。ありがとうございました。<br>
+- "OpenAI Whisper"が使えるようにするにあたって、多大なご助言を頂いた”イナバ”さん、”kobatan”さんに感謝致します。<br>
 ---
 
 
 ###AIｽﾀｯｸﾁｬﾝ ミニマル(Minimal)を作るのに必要な物、及び作り方 ###
-Atom Echoだけでも動作します！が、以下のモノを組立てることで【より可愛いミニマル】に仕上がります
-* ATOM Echo(マイコン本体)[約2,500円]
-** プログラムを動作させる本体。ディスプレイをつなぐとｽﾀｯｸﾁｬﾝの顔と文字でコミュニケーションができます。
+Atom Echoだけでも動作します！が、以下のモノを組立てることで【より可愛いミニマル】に仕上がります<br>
+-  ATOM Echo(マイコン本体)[約2,500円]
+	- プログラムを動作させる本体。ディスプレイをつなぐとｽﾀｯｸﾁｬﾝの顔と文字でコミュニケーションができます。
 *** https://www.switch-science.com/products/6347
 * 有機ELディスプレイ(0.96インチ 128×64ドット)[約600円]
 ** SSD1306を搭載かつ、外装ケースに入る サイズ：幅：25.2mm x 高さ：26mmを想定しています。
@@ -45,7 +45,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 
 
 ### プログラムをビルドするのに必要な物 ###
-* [m5stack-atom](http://www.m5stack.com/ "Title")<br>
+* [ATOM ECHO](https://docs.m5stack.com/ja/atom/atomecho/ "Title")<br>
 * VSCode<br>
 * PlatformIO<br>
 
@@ -73,7 +73,6 @@ https://x.com/UtaAoya/status/1794864738746478920
 
 [![Youtube動画Test](https://user-images.githubusercontent.com/84756197/173222007-3aefa245-4c0e-45e6-9855-91f0e3be89ed.png)](https://youtu.be/5aKI900iGVo?t=1336)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1UVf-VE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" loading="lazy" allowfullscreen></iframe>
 
 <br>
 <br>
