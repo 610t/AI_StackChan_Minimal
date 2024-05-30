@@ -10,13 +10,12 @@ AIスタックチャン - ミニマル(Minimal)です。robo8080さんの"AIｽ�
 	- 買いやすい価格：3,000円台
 	- 作りやすい構成：ワイヤーとはめ込みのみ(特別な工具・はんだ付け不要)
 	- 操作しやすいUI：無線でWifi/APIキー等が設定できます(プログラムおよびSDカードへの記載が不要)
-- 使用Webサービスと利用料金
+- 使用Webサービスと利用料金(低価格モデルを使えば、ほぼ料金が発生しませんが、ご注意ください)
 	- 対話型生成AI： [ChatGPT](https://platform.openai.com/docs/overview)
 		- [料金 - GPT-XXX](https://openai.com/api/pricing/)
 	- 音声合成：[Web版 VOICEVOX](https://voicevox.su-shiki.com/su-shikiapis/)
 		- [料金 - 無料(個人利用を想定)]
-	- 音声認識：[OpenAI Audio models-Whisper](https://openai.com/api/pricing/) か[Google Cloud STT](https://cloud.google.com/speech-to-text?hl=ja) のどちらかを選択
-		- https://cloud.google.com/speech-to-text?hl=ja
+	- 音声認識：[OpenAI Whisper](https://openai.com/api/pricing/) もしくは [Google Cloud STT](https://cloud.google.com/speech-to-text?hl=ja) のどちらかを選択
 		- [料金 - Audio models: Whisper](https://openai.com/api/pricing/)
 		- [料金 - Speech-to-Text V1 API](https://cloud.google.com/speech-to-text/pricing?hl=ja)
 <br>
@@ -24,7 +23,7 @@ AIスタックチャン - ミニマル(Minimal)です。robo8080さんの"AIｽ�
 感謝<br>
 - まずは命を削ってAIスタックチャンを公開してくれた、robo8080さんに大大感謝いたします。<br>
 - AIスタックチャン誕生を支えてくださったコミュニティの皆様に感謝！<br>
-	- [![StackChan4ALL](images/StackChan4ALL.jpg)](https://x.com/Chy_hobby/status/1679438264867102721)
+	- [![StackChan4ALL](images/StackChan4AL2L.jpg)](https://x.com/Chy_hobby/status/1679438264867102721)
 - Google Cloud STTは、”MhageGH”さんの [esp32_CloudSpeech](https://github.com/MhageGH/esp32_CloudSpeech/ "Title") を参考にさせて頂きました。ありがとうございました。<br>
 - "OpenAI Whisper"が使えるようにするにあたって、多大なご助言を頂いた”イナバ”さん、”kobatan”さんに感謝致します。<br>
 ---
