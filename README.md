@@ -43,7 +43,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 
 ### ハード制作の流れ(イメージ) ###
  0. ジャンパーワイヤを、ラジオペンチ（無ければピンセットでも可）で、90度に折り曲げます
- 1. ジャンパーワイヤを、<a href="https://docs.m5stack.com/ja/atom/atomecho" target="_blank" rel="noopener noreferrer">ATOM ECHO</a>と有機ELディスプレイに、以下の対応で接続します<br>
+ 1. ジャンパーワイヤを、[ATOM ECHO](https://docs.m5stack.com/ja/atom/atomecho "Title")と有機ELディスプレイに、以下の対応で接続します<br>
  <img src="images/wire_setting.jpg"><br>
  2. ジャンパーワイヤを、図のように巻きます
  3. ディスプレイから3DModelのfrontに差し込みます
@@ -65,9 +65,9 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 
 ### 使い方 ###
 後で更新します。<br>
-1. Wifi接続をスマホアプリ: Esp touchから設定<br>
+1. Wifi接続をスマホアプリ: Esp touch※から設定<br>
 [![手順01](images/x_stackchan01.jpg)](https://x.com/UtaAoya/status/1794857755968508118)
-	- 参考：Esp touchについて
+	- ※参考：Esp touchについて
 	https://lab.seeed.co.jp/entry/2022/10/17/120000
 
 2. 各種 APIキーをWebブラウザから設定<br>
