@@ -8,7 +8,7 @@ AIスタックチャン - ミニマル(Minimal)です。robo8080さんの"AIｽ�
 特徴<br>
 - 誰でも勢いで始められるよう「おもちゃ感覚で使えるミニマル構成」にリ・デザイン
 	- 買いやすい価格：3,000円台
-	- 作りやすい構成：ワイヤーとはめ込みのみ(特別な工具・はんだ付け不要)
+	- 作りやすい構成：M5 Burnerでプログラム無しでもインストール可。またワイヤーとはめ込みのみ(特別な工具・はんだ付け不要)
 	- 操作しやすいUI：無線でWifi/APIキー等が設定できます(プログラムおよびSDカードへの記載が不要)
 - 使用Webサービスと利用料金(低価格モデルを使えば、ほぼ料金が発生しませんが、ご注意ください)
 	- 対話型生成AI： [ChatGPT](https://platform.openai.com/docs/overview)
@@ -37,13 +37,14 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 		- <a href="https://www.mouser.jp/ProductDetail/M5Stack/C008-C?qs=81r%252BiQLm7BQ%2FzW%2Fdq5IHnA%3D%3D" target="_blank">マウザー：2,066円</a>
 		- [スイッチサイエンス：2,475円](https://www.switch-science.com/products/6347)
 -  有機ELディスプレイ(0.96インチ 128×64ドット)[約600円]
-	- SSD1306を搭載かつ、外装ケースに入る <B>サイズ：幅：25.2mm x 高さ：26mm</B>を想定しています
+	- SSD1306を搭載したもの。4本のワイヤーで本体につなぎます(I2C接続)
+	- <B>注意：多様なサイズがあるようです。外装ケースに入る <B>サイズ：幅：25.2mm x 高さ：26mm</B>か、ご確認ください
 		- <a href="https://akizukidenshi.com/catalog/g/g115870" target="_blank">秋月電子通商：580円</a>
 - ジャンパーワイヤ[メス-オス）（10cm）[約700円]
 	- ATOM Echoと有機ELディスプレイを接続するのに使用します。外装に入る短いワイヤーをお使いください
 		- <a href="https://www.amazon.co.jp/dp/B072N2WR5N/" target="_blank">アマゾンジャパン：699円</a>
 - 外装ケース
-	- このページで3Dモデルを無料公開しています。印刷してお使いください。印刷済ケースも販売することも検討中
+	- このページで3Dモデルを無料公開しています。印刷してお使いください。印刷済ケース販売も検討中
 		- [3D_model：無料](https://github.com/A-Uta/AI_StackChan_Minimal/tree/main/AI_StackChan_Minimal/3D_model )
 
 
@@ -59,10 +60,14 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 ![画像1](images/making_all01_A.jpg)<br><br>
 
 
-### プログラムをビルドするのに必要な物 ###
-* [ATOM ECHO](https://docs.m5stack.com/ja/atom/atomecho "Title")<br>
-* VSCode<br>
-* PlatformIO<br>
+### M5 Burnerでソフトのインストール(準備中) ###
+- [参考ページ：M5Burner v3の使いかた(さいとうてつや様)](https://zenn.dev/saitotetsuya/articles/m5stack_m5burner_v3)
+ 
+
+### プログラムでビルドする際に必要な物 ###
+- [ATOM ECHO](https://docs.m5stack.com/ja/atom/atomecho "Title")<br>
+- VSCode<br>
+- PlatformIO<br>
 
 使用しているライブラリ等は"platformio.ini"を参照してください。<br>
 
@@ -79,8 +84,8 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 2. 各種 APIキーをWebブラウザから設定<br>
 [![手順02](images/x_stackchan02.jpg)](https://x.com/UtaAoya/status/1794864738746478920)
 
-3. <br>
-[![手順03](images/x_stackchan03.jpg)](https://x.com/UtaAoya/status/1794864738746478920)
+3. 1クリックで"おしゃべり"、2クリックで"設定状態の表示"で遊ぶことができます<br>
+[![手順03](images/x_stackchan03.jpg)](https://x.com/UtaAoya/status/1796206485296562645)
 
 
 <br>
