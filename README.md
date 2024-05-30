@@ -71,7 +71,7 @@ https://lab.seeed.co.jp/entry/2022/10/17/120000
 
 https://x.com/UtaAoya/status/1794864738746478920
 
-[![Youtube動画Test](https://user-images.githubusercontent.com/84756197/173222007-3aefa245-4c0e-45e6-9855-91f0e3be89ed.png)](https://youtu.be/5aKI900iGVo?t=1336)
+[![手順01](images/AI_StackChan_Minimal01.jpg)](https://x.com/UtaAoya/status/1794857755968508118)
 
 
 <br>
