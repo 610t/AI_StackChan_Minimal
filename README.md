@@ -13,7 +13,7 @@ AIスタックチャン - ミニマル(Minimal)です。robo8080さんの"AIｽ�
 - 使用Webサービスと利用料金(低価格モデルを使えば、ほぼ料金が発生しませんが、ご注意ください)
 	- 対話型生成AI： [ChatGPT](https://platform.openai.com/docs/overview)
 		- [料金 - GPT-XXX](https://openai.com/api/pricing/)
-	- 音声合成：[Web版 VOICEVOX](https://voicevox.su-shiki.com/su-shikiapis/)
+	- 音声合成：[Web版 VOICEVOX（高速）](https://voicevox.su-shiki.com/su-shikiapis/)
 		- [料金 - 無料(個人利用を想定)]
 	- 音声認識：[OpenAI Whisper](https://openai.com/api/pricing/) もしくは [Google Cloud STT](https://cloud.google.com/speech-to-text?hl=ja) のどちらかを選択
 		- [料金 - Audio models: Whisper](https://openai.com/api/pricing/)
@@ -63,15 +63,14 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 ---
 
 ### 各Webサービス APIキーの取得 ###
-
-- ChatGPTのAPIキー取得方法は以下の通りです。(詳細はこのページ一番下のリンクを参照してください。)
-	- [OpenAIのウェブサイト](https://openai.com/ "Title")にアクセスして、アカウントを作成します。メールアドレスと携帯電話番号が必要です。
-	- アカウント作成後、APIキーを発行します。APIキーは有料ですが、無料期間やクレジットがあります。<br>
-
-- Web版 VOICEVOX のAPIキーの取得方法は、このページ（[ttsQuestV3Voicevox](https://github.com/ts-klassen/ttsQuestV3Voicevox/ "Title")）の一番下の方を参照してください。)<br>
-	- VOICEVOXのAPIキー取得後忘れずに“VOICEVOX用API利用登録”をしてください。そうしないと音声合成が高速にならないので音声が途切れ途切れになります。
-
-- Google Cloud Speech to TextのAPIキー取得方法は以下の通りです。(詳細はこのページ一番下のリンクを参照してください。)
+- OpenAI API（ChatGPTおよびWhisper）
+	- [参考：OpenAI APIキーの取得/登録方法](https://nicecamera.kidsplates.jp/help/6648/)
+	- [OpenAIのウェブサイト](https://openai.com/ "Title")にアクセスして、アカウントを作成します。メールアドレスと携帯電話番号が必要です
+	- アカウント作成後、APIキーを発行します。APIキーは有料ですが、無料期間やクレジットがあります
+- Web版 VOICEVOX 
+	- [WEB版VOICEVOX API（高速）](https://voicevox.su-shiki.com/su-shikiapis/)の「こちらでapiKeyを生成してください」から取得できます
+	- <B>注意：無料サービスのため、込み合っている時間には音声再生が途切れることがあります</B>
+- Google Cloud Speech to Text
 	- <B>注意：音声認識にWhisperを使うときは不要です</B>
 	- [Google Cloud Platformのウェブサイト](https://cloud.google.com/?hl=ja/ "Title")にアクセスして、アカウントを作成します。メールアドレスと携帯電話番号が必要です。カードの登録が必須ですが、無料トライアルや無料枠があります。
 	- アカウント作成後、APIキーを取得します。
