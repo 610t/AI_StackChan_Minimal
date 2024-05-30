@@ -1,5 +1,5 @@
 # AI_StackChan_Minimal
-AIｽﾀｯｸﾁｬﾝ ミニマル(Minimal)です。β版として雑な公開ですが、改善点をいただければ幸いです。
+AIスタックチャン ミニマル(Minimal)です。β版として雑な公開ですが、改善点をいただければ幸いです。
 <br><br>
 
 <img src="images/AI_StackChan_Minimal01.jpg" width="50%"><br><br>
@@ -18,13 +18,13 @@ AIｽﾀｯｸﾁｬﾝ ミニマル(Minimal)です。β版として雑な公開
 <br>
 
 感謝<br>
-- まずは命を削ってAIｽﾀｯｸﾁｬﾝを公開してくれた、robo8080さんに大大感謝いたします。<br>
+- まずは命を削ってAIスタックチャンを公開してくれた、robo8080さんに大大感謝いたします。<br>
 - Google Cloud STTは、”MhageGH”さんの [esp32_CloudSpeech](https://github.com/MhageGH/esp32_CloudSpeech/ "Title") を参考にさせて頂きました。ありがとうございました。<br>
 - "OpenAI Whisper"が使えるようにするにあたって、多大なご助言を頂いた”イナバ”さん、”kobatan”さんに感謝致します。<br>
 ---
 
 
-### AIｽﾀｯｸﾁｬﾝ ミニマル(Minimal)を作るのに必要な物、及び作り方 ###
+### AIスタックチャン ミニマルを作るのに必要な物、及び作り方 ###
 Atom Echoだけでも動作します！が、以下のモノを組立てることで【より可愛いミニマル】に仕上がります<br>
 -  ATOM Echo(マイコン本体)[約2,500円]
 	- プログラムを動作させる本体。ディスプレイをつなぐとｽﾀｯｸﾁｬﾝの顔と文字でコミュニケーションができます。
@@ -38,9 +38,9 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 - 外装ケース[無料]
 	- このページで3Dモデルを公開しています。3Dプリンタで印刷ください。
 		-https://github.com/A-Uta/AI_StackChan_Minimal/tree/main/AI_StackChan_Minimal/3D_model 
-制作の流れ
-![画像1](images/making_all01_A.jpg)<br><br>
 
+### 制作の流れ ###
+![画像1](images/making_all01_A.jpg)<br><br>
 
 ### プログラムをビルドするのに必要な物 ###
 * [ATOM ECHO](https://docs.m5stack.com/ja/atom/atomecho/ "Title")<br>
