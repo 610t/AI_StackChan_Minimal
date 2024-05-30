@@ -40,6 +40,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 		- https://github.com/A-Uta/AI_StackChan_Minimal/tree/main/AI_StackChan_Minimal/3D_model 
 
 ### ハード制作の流れ(イメージ) ###
+ジャンパーワイヤを、それぞれ
 ![画像1](images/making_all01_A.jpg)<br><br>
 
 ### プログラムをビルドするのに必要な物 ###
@@ -61,7 +62,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 	- 参考：Esp touchについて
 	https://lab.seeed.co.jp/entry/2022/10/17/120000
 
-2. 各種 APIキーをWebブラウザから設定
+2. 各種 APIキーをWebブラウザから設定<br>
 [![手順01](images/x_stackchan02.jpg)](https://x.com/UtaAoya/status/1794864738746478920)
 
 <br>
