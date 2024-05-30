@@ -30,15 +30,15 @@ AIスタックチャン ミニマル(Minimal)です。robo8080さんの"AIｽﾀ
 Atom Echoだけでも動作します！が、以下のモノを組立てることで【より可愛いミニマル】に仕上がります<br>
 -  ATOM Echo(マイコン本体)[約2,000から2,500円]
 	- プログラムを動作させる本体。ディスプレイにつなぐと顔と文字でコミュニケーションができます
-		- <p><a href="https://www.mouser.jp/ProductDetail/M5Stack/C008-C?qs=81r%252BiQLm7BQ%2FzW%2Fdq5IHnA%3D%3D" target="_new">マウザー：2,066円</a></p>
-		- [マウザー：2,066円]("https://www.mouser.jp/ProductDetail/M5Stack/C008-C?qs=81r%252BiQLm7BQ%2FzW%2Fdq5IHnA%3D%3D")
-		- https://www.switch-science.com/products/6347
+		- <a href="https://www.mouser.jp/ProductDetail/M5Stack/C008-C?qs=81r%252BiQLm7BQ%2FzW%2Fdq5IHnA%3D%3D" target="_new">マウザー：2,066円</a>
+		- <a href="https://www.switch-science.com/products/6347" target="_new">スイッチサイエンス：2,475円</a>
+		- ![スイッチサイエンス：2,475円](https://www.switch-science.com/products/6347)
 -  有機ELディスプレイ(0.96インチ 128×64ドット)[約600円]
 	- SSD1306を搭載かつ、外装ケースに入る <B>サイズ：幅：25.2mm x 高さ：26mm</B>を想定しています
-		- https://akizukidenshi.com/catalog/g/g115870
+		- <a href="https://akizukidenshi.com/catalog/g/g115870" target="_new">秋月電子通商：580円</a>
 - ジャンパーワイヤ[メス-オス）（10cm）[約700円]
 	- ATOM Echoと有機ELディスプレイを接続するのに使用します。外装に入る短いワイヤーをお使いください
-		- https://www.amazon.co.jp/dp/B072N2WR5N/
+		- <a href="https://www.amazon.co.jp/dp/B072N2WR5N/" target="_new">アマゾンジャパン：699円</a>
 - 外装ケース[無料]
 	- ここのページで、3Dモデルを公開しています。DL後、3Dプリンタで印刷してお使いください
 		- https://github.com/A-Uta/AI_StackChan_Minimal/tree/main/AI_StackChan_Minimal/3D_model 
