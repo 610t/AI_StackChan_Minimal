@@ -23,7 +23,7 @@ AIスタックチャン - ミニマル(Minimal)です。robo8080さんの"AIｽ�
 感謝<br>
 - まずは命を削ってAIスタックチャンを公開してくれた、robo8080さんに大大感謝いたします。<br>
 - AIスタックチャン誕生を支えてくださったコミュニティの皆様に感謝！<br>
-	- [![StackChan4ALL](images/StackChan4AL2L.jpg)](https://x.com/Chy_hobby/status/1679438264867102721)
+	- [![StackChan4ALL](images/StackChan4ALL2.jpg)](https://x.com/Chy_hobby/status/1679438264867102721)
 - Google Cloud STTは、”MhageGH”さんの [esp32_CloudSpeech](https://github.com/MhageGH/esp32_CloudSpeech/ "Title") を参考にさせて頂きました。ありがとうございました。<br>
 - "OpenAI Whisper"が使えるようにするにあたって、多大なご助言を頂いた”イナバ”さん、”kobatan”さんに感謝致します。<br>
 ---
