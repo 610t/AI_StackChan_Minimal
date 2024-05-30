@@ -1,5 +1,5 @@
 # AI_StackChan_Minimal
-AIスタックチャン - ミニマル(Minimal)です。robo8080さんの"AIｽﾀｯｸﾁｬﾝ2"および"ATOM Echo版"をベースに【誰でも気軽に遊べるような必要最低限の機能】を搭載しました(サーボ動作,ウェイクワード等除く)
+AIスタックチャン - ミニマル(Minimal)です。robo8080さんの"AIｽﾀｯｸﾁｬﾝ2"および"ATOM Echo版"をベースに【誰でも気軽に遊べるような"おもちゃのｽﾀｯｸﾁｬﾝ"】を目指しています(サーボ動作,ウェイクワード等除く)
 <br><br>
 
 <img src="images/AI_StackChan_Minimal01.jpg" width="50%"><br>
