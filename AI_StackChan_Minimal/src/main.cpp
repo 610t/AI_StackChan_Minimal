@@ -2,15 +2,20 @@
  - GitHub AI_StackChan_Minimal
  https://github.com/A-Uta/AI_StackChan_Minimal
 
- - 利用Webサービスと料金
- 1. OpenAI API (Pricing) - ChatGPT/Whisper
- https://openai.com/api/pricing/
+ - AIｽﾀｯｸﾁｬﾝ - ミニマル(Minimal)で利用しているWebサービスと、その料金は下記を参照ください
+ 1. OpenAI API
+ https://platform.openai.com/docs/overview
+   A. Pricing (利用料金) - GPT-XXX / Audio models-Whisperをご確認ください
+   https://openai.com/api/pricing/
 
- 2. WEB版VOICEVOX API（無料）
+ 2. WEB版VOICEVOX API（高速）（無料）
  https://voicevox.su-shiki.com/su-shikiapis/
+  VOICEVOX:四国めたん, ずんだもん 
 
- 3. Google Speech-to-Text の料金
- https://cloud.google.com/speech-to-text/pricing?hl=ja
+ 3. Google Speech-to-Text
+ https://cloud.google.com/speech-to-text?hl=ja
+   A. Speech-to-Text の料金 - Speech-to-Text V1 API をご確認ください
+   https://cloud.google.com/speech-to-text/pricing?hl=ja
 ***/
 
 #include <Arduino.h>
@@ -620,11 +625,11 @@ void setup()
   avatar.setScale(.32);               // Adjust for SSD1306
   avatar.setPosition(-92,-100);       // Adjust for SSD1306
   avatar.init();                      // Add for M5 avatar
-  avatar.addTask(lipSync, "lipSync");   // Add for M5 avatar
+  avatar.addTask(lipSync, "lipSync"); // Add for M5 avatar
   avatar.setSpeechFont(&fonts::lgfxJapanGothic_16);  // Adjust for SSD1306
 
   set_led_color(CRGB::Black);
-  M5.Lcd.setTextSize(1);                // Adjust for SSD1306 (Connect info)
+  M5.Lcd.setTextSize(1);              // Adjust for SSD1306 (Connect info)
 
 }
 
