@@ -88,13 +88,12 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 - VSCode<br>
 - PlatformIO<br>
 
-使用しているライブラリ等は"platformio.ini"を参照してください。ただし文字表示をスクロールするために、Avatarライブラリをlibフォルダにコピーして変更を加えています（platformio.iniではロードしない）<br>
+※使用しているライブラリ等は"platformio.ini"を参照してください。ただし文字表示をスクロールするために、Avatarライブラリをlibフォルダにコピーして変更を加えています（platformio.iniではロードしない）<br>
 
 ---
 
 
-### 使い方 ###
-後で更新します。<br>
+### 使い方 （画像クリックで動画に飛びます）###
 1. プログラムをビルドまたはソフトをインストール後、Wifi接続をスマホアプリ: Esp touch※から設定<br>
 [![手順01](images/x_stackchan01.jpg)](https://x.com/UtaAoya/status/1794857755968508118)
 	- ※参考：Esp touchについて
