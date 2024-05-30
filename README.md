@@ -5,7 +5,7 @@ AIスタックチャン ミニマル(Minimal)です。β版として雑な公開
 <img src="images/AI_StackChan_Minimal01.jpg" width="50%"><br><br>
 
 特徴<br>
-- 知ってしまった人が勢いで始められるよう「おもちゃ感覚で使えるミニマル構成」にリ・デザイン[安く/作り易く(はんだ作業不要)/操作し易い]
+- 勢いで始められるよう「おもちゃ感覚で使えるミニマル構成」にリ・デザイン[安く/作り易く(はんだ作業不要)/操作し易い]
 - robo8080さんの"AIｽﾀｯｸﾁｬﾝ2"および"ATOM Echo版"をベースに、必要最低限の機能を搭載(サーボ動作,ウェイクワード等除く)
 - アプリおよびWebブラウザより、Wifi/APIキー等が設定できます(プログラムへの直接記載、およびSDカードへの記載が不要)
 - 使用Webサービス
@@ -39,9 +39,11 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 	- ここのページで、3Dモデルを公開しています。DL後、3Dプリンタで印刷してお使いください
 		- https://github.com/A-Uta/AI_StackChan_Minimal/tree/main/AI_StackChan_Minimal/3D_model 
 
+
 ### ハード制作の流れ(イメージ) ###
 ジャンパーワイヤを、それぞれ
 ![画像1](images/making_all01_A.jpg)<br><br>
+
 
 ### プログラムをビルドするのに必要な物 ###
 * [ATOM ECHO](https://docs.m5stack.com/ja/atom/atomecho/ "Title")<br>
@@ -49,8 +51,6 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 * PlatformIO<br>
 
 使用しているライブラリ等は"platformio.ini"を参照してください。<br>
-
-【2024/5/30の時点では、β版です。近日中にUpdateします】<br>
 
 ---
 
