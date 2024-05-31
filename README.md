@@ -66,7 +66,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 ### 各Webサービス APIキーの取得 ###
 - OpenAI API（ChatGPTおよびWhisper）
 	- [参考：OpenAI APIキーの取得/登録方法](https://nicecamera.kidsplates.jp/help/6648/)
-	- [OpenAIのウェブサイト](https://openai.com/ "Title")にアクセスして、アカウントを作成します。メールアドレスと携帯電話番号が必要です
+	- [OpenAIのウェブサイト](https://openai.com/)にアクセスして、アカウントを作成します。メールアドレスと携帯電話番号が必要です
 	- アカウント作成後、APIキーを発行します。APIキーは有料ですが、無料期間やクレジットがあります
 - Web版 VOICEVOX 
 	- [WEB版VOICEVOX API（高速）](https://voicevox.su-shiki.com/su-shikiapis/)の「こちらでapiKeyを生成してください」から取得できます
@@ -74,7 +74,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 - Google Cloud Speech to Text
 	- <B>注意：音声認識にWhisperを使うときは不要です</B>
 	- [参考：Google音声認識APIとは？特徴や料金プラン、使い方を画像付きで徹底解説！](https://www.notta.ai/blog/how-to-use-google-speech-to-text-api)
-	- [Google Cloud Platformのウェブサイト](https://cloud.google.com/?hl=ja/ "Title")にアクセスして、アカウントを作成します。メールアドレスと携帯電話番号が必要です。カードの登録が必須ですが、無料トライアルや無料枠があります。
+	- [Google Cloud Platformのウェブサイト](https://cloud.google.com/?hl=ja/)にアクセスして、アカウントを作成します。メールアドレスと携帯電話番号が必要です。カードの登録が必須ですが、無料トライアルや無料枠があります。
 	- アカウント作成後、APIキーを取得します。
 	- APIキーでSpeech to Textを有効にするのを忘れないで下さい。
 ---
@@ -88,6 +88,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 - [ATOM ECHO](https://docs.m5stack.com/ja/atom/atomecho "Title")<br>
 - VSCode<br>
 - PlatformIO<br>
+	- [参考：電子工作素人によるスタックチャン製作記６（Platform IO 環境構築編）](https://note.com/ku_nel_5/n/n5bbdd5e176bf)
 
 ※使用しているライブラリ等は"platformio.ini"を参照してください。ただし文字表示をスクロールするために、Avatarライブラリをlibフォルダにコピーして変更を加えています（platformio.iniではロードしない）<br>
 
@@ -98,6 +99,9 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 1. プログラムをビルドまたはソフトをインストール後、Wifi接続をスマホアプリ: Esp touch※から設定<br>
 [![手順01](images/x_stackchan01.jpg)](https://x.com/UtaAoya/status/1794857755968508118)
 	- [参考：Esp touch：Seeed Studio XIAO ESP32C3 SmartConfigでスマートフォンからWi-Fiを設定](https://lab.seeed.co.jp/entry/2022/10/17/120000)
+	- <B>注意：Esp touchの接続先WiFiは"2.4G"にしてください。5GではAtom Echoが見つかりません</B>
+		- [参考：M5StickC(ESP32)での無線通信方式の選び方](https://lang-ship.com/blog/work/m5stickc-esp32-radio/)
+	
 
 2. 各種 APIキーをWebブラウザから設定<br>
 [![手順02](images/x_stackchan02.jpg)](https://x.com/UtaAoya/status/1794864738746478920)
