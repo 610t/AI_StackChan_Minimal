@@ -1,5 +1,5 @@
 # AI_StackChan_Minimal
-AIスタックチャン - ミニマル(Minimal)です。robo8080さんの"AIｽﾀｯｸﾁｬﾝ2"および"ATOM Echo版"をベースに【誰でも気軽に遊べるような"おもちゃのｽﾀｯｸﾁｬﾝ"】を目指しています(サーボ動作,ウェイクワード等除く)
+AIスタックチャン - ミニマル(Minimal)です。robo8080さんの[AIｽﾀｯｸﾁｬﾝ2](https://github.com/robo8080/AI_StackChan2)および[ATOM Echo版](https://github.com/robo8080/M5Unified_AtomEcho_ChatGPT)をベースに<B>【誰でも気軽に遊べるような"おもちゃのｽﾀｯｸﾁｬﾝ"】</B>を目指しています(サーボ動作,ウェイクワード等除く)。プログラムやIoTの勉強は興味が出てきてから始めるのでOKです！
 <br><br>
 
 <img src="images/AI_StackChan_Minimal01.jpg" width="50%"><br>
