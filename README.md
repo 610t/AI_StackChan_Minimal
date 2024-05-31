@@ -1,5 +1,5 @@
 # AI_StackChan_Minimal
-AIスタックチャン - ミニマル(Minimal)です。robo8080さんの[AIｽﾀｯｸﾁｬﾝ2](https://github.com/robo8080/AI_StackChan2)および[ATOM Echo版](https://github.com/robo8080/M5Unified_AtomEcho_ChatGPT)をベースに<B>【誰でも気軽に遊べるような"おもちゃのｽﾀｯｸﾁｬﾝ"】</B>を目指しています(サーボ動作,ウェイクワード等除く)。プログラムやIoTの勉強は興味が出てきてから始めるのでOKです！
+AIスタックチャン - ミニマル(Minimal)です。robo8080さんの[AIｽﾀｯｸﾁｬﾝ2](https://github.com/robo8080/AI_StackChan2)および[ATOM Echo移植版](https://github.com/robo8080/M5Unified_AtomEcho_ChatGPT)をベースに<B>【誰でも気軽に遊べるような"おもちゃのｽﾀｯｸﾁｬﾝ"】</B>を目指しています(サーボ動作,ウェイクワード等除く)。「プログラムやIoTの勉強は、興味が出たら始める」でOKです！
 <br><br>
 
 <img src="images/AI_StackChan_Minimal01.jpg" width="50%"><br>
@@ -9,7 +9,7 @@ AIスタックチャン - ミニマル(Minimal)です。robo8080さんの[AIｽ�
 - 誰でも勢いで始められるよう「おもちゃ感覚で使えるミニマル構成」にリ・デザイン
 	- 買いやすい価格：3,000円台
 	- 作りやすい構成：プログラム無しでもインストール可(準備中)。ハードは「ワイヤーとはめ込み」のみ(特別な工具・はんだ付け不要)
-	- 操作しやすいUI：無線でWifi/APIキー等が設定できます(プログラムおよびSDカードへの記載が不要)
+	- 操作しやすいUI：無線でWifi/APIキー等が設定が可能(プログラムおよびSDカードへの記載が不要)
 - 使用Webサービスと利用料金(低価格モデルを使えば、ほぼ料金が発生しませんが、ご注意ください)
 	- 対話型生成AI： [ChatGPT](https://platform.openai.com/docs/overview)
 		- [料金 - GPT-3.5 Turbo](https://openai.com/api/pricing/)
@@ -35,6 +35,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 	- プログラムを動作させる本体。ディスプレイにつなぐと顔と文字でコミュニケーションができます
 	- <B>注意：スピーカーが超小型のため、小さい音量/単位時間でお使いください。</B>会話は問題ありませんが音楽再生には向いていません
 		- <a href="https://www.mouser.jp/ProductDetail/M5Stack/C008-C?qs=81r%252BiQLm7BQ%2FzW%2Fdq5IHnA%3D%3D" target="_blank">マウザー：2,066円</a>
+		- [DigiKey：2,220円](https://www.digikey.jp/ja/products/detail/m5stack-technology-co-ltd/C008-C/12174736)
 		- [スイッチサイエンス：2,475円](https://www.switch-science.com/products/6347)
 -  有機ELディスプレイ(0.96インチ 128×64ドット)[約600円]
 	- SSD1306を搭載したもの。4本のワイヤーで本体につなぎます(I2C接続)
