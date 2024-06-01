@@ -15,7 +15,7 @@ AIスタックチャン - ミニマル(Minimal)です。robo8080さんの[AIｽ�
 		- [料金 - GPT-3.5 Turbo](https://openai.com/api/pricing/)
 	- 音声合成：[Web版 VOICEVOX（高速）](https://voicevox.su-shiki.com/su-shikiapis/)
 		- [料金 - 無料(個人利用を想定)]
-		- クレジット表記 - VOICEVOX:ずんだもん,VOICEVOX:四国めたん,VOICEVOX:青山龍星
+		- クレジット表記 - VOICEVOX:ずんだもん,VOICEVOX:四国めたん,VOICEVOX:青山龍星,VOICEVOX WhiteCUL
 	- 音声認識：[OpenAI Whisper](https://openai.com/api/pricing/) もしくは [Google Cloud STT](https://cloud.google.com/speech-to-text?hl=ja) のどちらかを選択
 		- [料金 - Audio models: Whisper](https://openai.com/api/pricing/)
 		- [料金 - Speech-to-Text V1 API](https://cloud.google.com/speech-to-text/pricing?hl=ja)
@@ -101,7 +101,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 1. プログラムをビルドまたはソフトをインストール後、Wifi接続をスマホアプリ: Esp touch※から設定<br>
 [![手順01](images/x_stackchan01.jpg)](https://x.com/UtaAoya/status/1794857755968508118)
 	- [参考：Esp touch：Seeed Studio XIAO ESP32C3 SmartConfigでスマートフォンからWi-Fiを設定](https://lab.seeed.co.jp/entry/2022/10/17/120000)
-	- <B>注意：Esp touchの接続先WiFiは"2.4G"にしてください。5GではAtom Echoが見つかりません</B>
+	- <B>注意：Esp touchの接続先WiFiは"2.4GHz"にしてください。5GHzではAtom Echoが見つかりません</B>
 		- [参考：M5StickC(ESP32)での無線通信方式の選び方](https://lang-ship.com/blog/work/m5stickc-esp32-radio/)
 	
 
