@@ -48,6 +48,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 - 外装ケース
 	- このページで3Dモデルを無料公開しています。印刷してお使いください。印刷済ケース販売も検討中
 		- [3D_model：無料](https://github.com/A-Uta/AI_StackChan_Minimal/tree/main/AI_StackChan_Minimal/3D_model )
+			- [2024/06/10] v02のモデルを追加しました
 
 
 ### ハード制作の流れ(イメージ) ###
@@ -101,6 +102,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 1. プログラムをビルドまたはソフトをインストール後、Wifi接続をスマホアプリ: Esp touch※から設定<br>
 [![手順01](images/x_stackchan01.jpg)](https://x.com/UtaAoya/status/1794857755968508118)
 	- [参考：Esp touch：Seeed Studio XIAO ESP32C3 SmartConfigでスマートフォンからWi-Fiを設定](https://lab.seeed.co.jp/entry/2022/10/17/120000)
+	- <B>注意：ESPTouchを選択してください。ESPTouch v2はESP32C3専用です。</B>
 	- <B>注意：Esp touchの接続先WiFiは"2.4GHz"にしてください。5GHzではAtom Echoが見つかりません</B>
 		- [参考：M5StickC(ESP32)での無線通信方式の選び方](https://lang-ship.com/blog/work/m5stickc-esp32-radio/)
 	
