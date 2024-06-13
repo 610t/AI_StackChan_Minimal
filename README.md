@@ -9,13 +9,13 @@ AIスタックチャン - ミニマル(Minimal)です。robo8080さんの[AIｽ�
 - 誰でも勢いで始められるよう「おもちゃ感覚で使えるミニマル構成」にリ・デザイン
 	- 買いやすい価格：3,000円台
 	- 作りやすい構成：プログラム環境無しでもインストール可。ハードは「ワイヤーとはめ込み」のみ(はんだ付け不要)
-	- 操作しやすいUI：無線でWifi/APIキー設定(プログラム/SDカードへの記載不要),またモデルVer,キャラクタ音声,テキストで質問が可能
+	- 操作しやすいUI：無線でWifi/APIキー設定(プログラム/SDカードへの記載不要)。またAIモデル/キャラクター音声の変更,音声入力以外にもテキストで質問が可能
 - 使用Webサービスと利用料金(低価格モデルを使えば、ほぼ料金が発生しませんが、ご注意ください)
 	- 対話型生成AI： [ChatGPT](https://platform.openai.com/docs/overview)
 		- [料金 - GPT-3.5 Turbo/4o](https://openai.com/api/pricing/)
 	- 音声合成：[Web版 VOICEVOX（高速）](https://voicevox.su-shiki.com/su-shikiapis/)
-		- [料金 - 無料(個人利用を想定)]
-		- [参考 - VOICEVOXのキャラクタ] https://voicevox.hiroshiba.jp/
+		- 料金 - 無料(個人利用を想定)
+		- 参考 - VOICEVOX：[キャラクター一覧](https://voicevox.hiroshiba.jp/)
 		- クレジット表記 - VOICEVOX:ずんだもん,VOICEVOX:四国めたん,VOICEVOX:青山龍星,VOICEVOX:WhiteCUL
 	- 音声認識：[OpenAI Whisper](https://openai.com/api/pricing/) もしくは [Google Cloud STT](https://cloud.google.com/speech-to-text?hl=ja) のどちらかを選択
 		- [料金 - Audio models: Whisper](https://openai.com/api/pricing/)
@@ -116,7 +116,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 3. 1クリックで"おしゃべり"、ダブルクリックで"設定状態の表示"で遊ぶことができます<br>
 [![手順03](images/x_stackchan03.jpg)](https://x.com/UtaAoya/status/1796206485296562645)
 
-3. 設定メニューで、<br>
+4. 設定メニューで"キャラクター音声","対話型AIモデル"を変更。また"テキストで会話"で長文の会話も可能です<br>
 [![手順04](images/x_stackchan04.jpg)](https://x.com/UtaAoya/status/1801027113543204893)
 
 <br>
