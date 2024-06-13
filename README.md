@@ -8,14 +8,15 @@ AIスタックチャン - ミニマル(Minimal)です。robo8080さんの[AIｽ�
 特徴<br>
 - 誰でも勢いで始められるよう「おもちゃ感覚で使えるミニマル構成」にリ・デザイン
 	- 買いやすい価格：3,000円台
-	- 作りやすい構成：プログラム無しでもインストール可(準備中)。ハードは「ワイヤーとはめ込み」のみ(特別な工具・はんだ付け不要)
-	- 操作しやすいUI：無線でWifi/APIキー等が設定が可能(プログラムおよびSDカードへの記載が不要)
+	- 作りやすい構成：プログラム環境無しでもインストール可。ハードは「ワイヤーとはめ込み」のみ(はんだ付け不要)
+	- 操作しやすいUI：無線でWifi/APIキー設定(プログラム/SDカードへの記載不要),またモデルVer,キャラクタ音声,テキストで質問が可能
 - 使用Webサービスと利用料金(低価格モデルを使えば、ほぼ料金が発生しませんが、ご注意ください)
 	- 対話型生成AI： [ChatGPT](https://platform.openai.com/docs/overview)
-		- [料金 - GPT-3.5 Turbo](https://openai.com/api/pricing/)
+		- [料金 - GPT-3.5 Turbo/4o](https://openai.com/api/pricing/)
 	- 音声合成：[Web版 VOICEVOX（高速）](https://voicevox.su-shiki.com/su-shikiapis/)
 		- [料金 - 無料(個人利用を想定)]
-		- クレジット表記 - VOICEVOX:ずんだもん,VOICEVOX:四国めたん,VOICEVOX:青山龍星,VOICEVOX WhiteCUL
+		- [参考 - VOICEVOXのキャラクタ] https://voicevox.hiroshiba.jp/
+		- クレジット表記 - VOICEVOX:ずんだもん,VOICEVOX:四国めたん,VOICEVOX:青山龍星,VOICEVOX:WhiteCUL
 	- 音声認識：[OpenAI Whisper](https://openai.com/api/pricing/) もしくは [Google Cloud STT](https://cloud.google.com/speech-to-text?hl=ja) のどちらかを選択
 		- [料金 - Audio models: Whisper](https://openai.com/api/pricing/)
 		- [料金 - Speech-to-Text V1 API](https://cloud.google.com/speech-to-text/pricing?hl=ja)
@@ -23,14 +24,14 @@ AIスタックチャン - ミニマル(Minimal)です。robo8080さんの[AIｽ�
 
 感謝<br>
 - まずは命を削ってAIスタックチャンを公開してくれた、robo8080さんに大大感謝いたします。<br>
-- AIスタックチャン誕生を支えてくださったコミュニティの皆様に感謝！<br>
+- AIスタックチャン誕生を支えてくださったコミュニティの皆様に感謝！(作画:みすじさん)<br>
 	- [![StackChan4ALL](images/StackChan4ALL2.jpg)](https://x.com/Chy_hobby/status/1679438264867102721)
 - Google Cloud STTは、”MhageGH”さんの [esp32_CloudSpeech](https://github.com/MhageGH/esp32_CloudSpeech/ "Title") を参考にさせて頂きました。ありがとうございました。<br>
-- "OpenAI Whisper"が使えるようにするにあたって、多大なご助言を頂いた”イナバ”さん、”kobatan”さんに感謝致します。<br>
+- OpenAI Whisperが使えるようにするにあたって、多大なご助言を頂いた”イナバ”さん、”kobatan”さんに感謝致します。<br>
 ---
 
 
-### AIスタックチャン - ミニマルを作るのに必要な物、及び作り方(※価格：2024/05/31時点) ###
+### AIスタックチャン - ミニマルを作るのに必要な物、及び作り方(※価格：2024/06/14時点) ###
 Atom Echoだけでも動作します！が、以下のモノを組立てることで【より可愛いミニマル】に仕上がります<br>
 -  ATOM Echo(マイコン本体)[約2,000から2,500円]
 	- プログラムを動作させる本体。ディスプレイにつなぐと顔と文字でコミュニケーションができます
@@ -48,6 +49,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 - 外装ケース
 	- このページで3Dモデルを無料公開しています。印刷してお使いください。印刷済ケース販売も検討中
 		- [3D_model：無料](https://github.com/A-Uta/AI_StackChan_Minimal/tree/main/AI_StackChan_Minimal/3D_model )
+			- [使い方] front.stlとback.stlの1組がセット。印刷後にはめ込みます。
 			- [2024/06/10] v02のモデルを追加しました
 
 
@@ -74,6 +76,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 - Web版 VOICEVOX 
 	- [WEB版VOICEVOX API（高速）](https://voicevox.su-shiki.com/su-shikiapis/)の「こちらでapiKeyを生成してください」から取得できます
 	- <B>注意：無料サービスのため、込み合っている時間には音声再生が途切れることがあります</B>
+	- 最新の話者ID一覧(注意：ハミングは未対応) https://www.voicevox.su-shiki.com/voicevox-id
 - Google Cloud Speech to Text
 	- <B>注意：音声認識にWhisperを使うときは不要です</B>
 	- [参考：Google音声認識APIとは？特徴や料金プラン、使い方を画像付きで徹底解説！](https://www.notta.ai/blog/how-to-use-google-speech-to-text-api)
@@ -102,7 +105,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 1. プログラムをビルドまたはソフトをインストール後、Wifi接続をスマホアプリ: Esp touch※から設定<br>
 [![手順01](images/x_stackchan01.jpg)](https://x.com/UtaAoya/status/1794857755968508118)
 	- [参考：Esp touch：Seeed Studio XIAO ESP32C3 SmartConfigでスマートフォンからWi-Fiを設定](https://lab.seeed.co.jp/entry/2022/10/17/120000)
-	- <B>注意：ESPTouchを選択してください。ESPTouch v2はESP32C3専用です。</B>
+	- <B>注意：ESPTouchを選択してください。"ESPTouch v2はESP32C3専用"です</B>
 	- <B>注意：Esp touchの接続先WiFiは"2.4GHz"にしてください。5GHzではAtom Echoが見つかりません</B>
 		- [参考：M5StickC(ESP32)での無線通信方式の選び方](https://lang-ship.com/blog/work/m5stickc-esp32-radio/)
 	
@@ -113,6 +116,8 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 3. 1クリックで"おしゃべり"、ダブルクリックで"設定状態の表示"で遊ぶことができます<br>
 [![手順03](images/x_stackchan03.jpg)](https://x.com/UtaAoya/status/1796206485296562645)
 
+3. 設定メニューで、<br>
+[![手順04](images/x_stackchan04.jpg)](https://x.com/UtaAoya/status/1801027113543204893)
 
 <br>
 <br>
