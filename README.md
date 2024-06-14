@@ -79,6 +79,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 	- 最新の話者ID一覧(注意：ハミングは未対応) https://www.voicevox.su-shiki.com/voicevox-id
 - Google Cloud Speech to Text
 	- <B>注意：音声認識にWhisperを使うときは不要です</B>
+	- [参考：Google Cloud STT（音声認識）のAPIキーの作り方](https://scrapbox.io/stack-chan/Google_Cloud_STT%EF%BC%88%E9%9F%B3%E5%A3%B0%E8%AA%8D%E8%AD%98%EF%BC%89%E3%81%AEAPI%E3%82%AD%E3%83%BC%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9)
 	- [参考：Google音声認識APIとは？特徴や料金プラン、使い方を画像付きで徹底解説！](https://www.notta.ai/blog/how-to-use-google-speech-to-text-api)
 	- [Google Cloud Platformのウェブサイト](https://cloud.google.com/?hl=ja/)にアクセスして、アカウントを作成します。メールアドレスと携帯電話番号が必要です。カードの登録が必須ですが、無料トライアルや無料枠があります
 	- アカウント作成後、APIキーを取得します
