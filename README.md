@@ -9,7 +9,7 @@ AIスタックチャン - ミニマル(Minimal)です。robo8080さんの[AIｽ�
 - 誰でも勢いで始められるよう「おもちゃ感覚で使えるミニマル構成」にリ・デザイン
 	- 買いやすい価格：3,000円台
 	- 作りやすい構成：プログラム環境無しでもインストール可。ハードは「ワイヤーとはめ込み」のみ(はんだ付け不要)
-	- 操作しやすいUI：無線でWifi/APIキー設定(プログラム/SDカードへの記載不要)。またAIモデル/キャラクター音声の変更,音声入力以外にもテキストで質問が可能
+	- 操作しやすいUI：無線でWifi/APIキー設定(プログラム/SDカードへの記載不要)。またキャラクター音声/AIモデルの変更,長い会話はテキスト入力で質問が可能
 - 使用Webサービスと利用料金(低価格モデルを使えば、ほぼ料金が発生しませんが、ご注意ください)
 	- 対話型生成AI： [ChatGPT](https://platform.openai.com/docs/overview)
 		- [料金 - GPT-3.5 Turbo/4o](https://openai.com/api/pricing/)
@@ -91,7 +91,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 1. [このM5Stack社のページ](https://docs.m5stack.com/en/download)より、自身のPC環境にあったM5BurnerをDownloadします<br>
 [![手順01](images/M5Burner01.jpg)](https://docs.m5stack.com/en/download)
 
-2. (この画像はWindows版)Downloadしたファイルを解凍し、M5Burner.exeを実行します<br>
+2. (ここからWindows版で説明)Downloadしたファイルを解凍し、M5Burner.exeを実行します<br>
 [![手順02](images/M5Burner02.jpg)](https://github.com/A-Uta/AI_StackChan_Minimal)
 
 3. メッセージが出るので、詳細を押してから実行ボタンを押して起動します<br>
