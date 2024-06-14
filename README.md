@@ -88,20 +88,20 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 
 
 ### ソフト：インストールの流れ(ツール：M5 Burnerで実施。プログラム環境不要) ###
-1. [このM5Stack社のページ](https://cloud.google.com/?hl=ja/)より、自身のPC環境にあったM5BurnerをDownloadします<br>
+1. [このM5Stack社のページ](https://docs.m5stack.com/en/download)より、自身のPC環境にあったM5BurnerをDownloadします<br>
 [![手順01](images/M5Burner01.jpg)](https://docs.m5stack.com/en/download)
 
 2. (この画像はWindows版)Downloadしたファイルを解凍し、M5Burner.exeを実行します<br>
-[![手順02](images/M5Burner02.jpg)]
+[![手順02](images/M5Burner02.jpg)](https://github.com/A-Uta/AI_StackChan_Minimal)
 
 3. メッセージが出るので、詳細を押してから実行ボタンを押して起動します<br>
-[![手順03](images/M5Burner03.jpg)]
+[![手順03](images/M5Burner03.jpg)](https://github.com/A-Uta/AI_StackChan_Minimal)
 
 4. 左メニューの「ATOM」を選択し「Stackchan-AIｽﾀｯｸﾁｬﾝ-ﾐﾆﾏﾙ(Minimal)」のDownloadボタンを押します。Download成功後、Brunボタンを押し、Continueを押します<br>
-[![手順04](images/M5Burner04.jpg)]
+[![手順04](images/M5Burner04.jpg)](https://github.com/A-Uta/AI_StackChan_Minimal)
 
 5. Startボタンを押してインストール(ファームウェア書込み)を開始し、「Burn successfully, click here to return」が表位されたら完了です<br>
-[![手順04](images/M5Burner05.jpg)]
+[![手順04](images/M5Burner05.jpg)](https://github.com/A-Uta/AI_StackChan_Minimal)
 
 - [参考ページ：M5Burner v3の使いかた(さいとうてつや様)](https://zenn.dev/saitotetsuya/articles/m5stack_m5burner_v3)<br>
 ---
