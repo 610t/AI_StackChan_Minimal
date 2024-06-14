@@ -87,9 +87,25 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 ---
 
 
-### M5 Burnerでソフトのインストール(準備中) ###
-- [参考ページ：M5Burner v3の使いかた(さいとうてつや様)](https://zenn.dev/saitotetsuya/articles/m5stack_m5burner_v3)
- 
+### M5 Burnerでソフトのインストール(画像クリックで飛びます) ###
+1. M5Stack社のページより自分のPC環境にあったM5BurnerをDownloadします<br>
+[![手順01](images/M5Burner01.jpg)](https://docs.m5stack.com/en/download)
+
+2. (この画像はWindows版)Downloadしたファイルを解凍し、M5Burner.exeを実行します<br>
+[![手順02](images/M5Burner02.jpg)]
+
+3. 詳細を押してから実行ボタンを押して起動します<br>
+[![手順03](images/M5Burner03.jpg)]
+
+4. 左メニューの「ATOM」を選択し「Stackchan-AIｽﾀｯｸﾁｬﾝ-ﾐﾆﾏﾙ(Minimal)」のDownloadボタンを押します。Download成功後、Brunボタンを押し、Continueを押します<br>
+[![手順04](images/M5Burner04.jpg)]
+
+5. Startボタンを押してインストール(ファームウェア書込み)を開始し、「Burn successfully, click here to return」が表位されたら完了です<br>
+[![手順04](images/M5Burner05.jpg)]
+
+- [参考ページ：M5Burner v3の使いかた(さいとうてつや様)](https://zenn.dev/saitotetsuya/articles/m5stack_m5burner_v3)<br>
+---
+
 
 ### プログラムでビルドする際に必要な物 ###
 - [ATOM ECHO](https://docs.m5stack.com/ja/atom/atomecho "Title")<br>
