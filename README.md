@@ -86,6 +86,12 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 	- APIキーでSpeech to Textを有効にするのを忘れないで下さい
 ---
 
+### PCとハードの接続 ###
+1. (Windowの場合)USBに接続する前に、デバイスマネージャーを検索からくことで、この後指定するCOMポート番号を知ることができます<br>
+[![手順01](images/M5Burner01.jpg)](https://x.com/UtaAoya/status/1801630413536039206)
+- <B>注意：Atom EchoはWindowsではドライバソフト無く認識するはずですが、他のOSや認識しない場合は、以下のページをご参考ください</B>
+	- [参考ページ：M5Burner v3の使いかた(さいとうてつや様)](https://zenn.dev/saitotetsuya/articles/m5stack_m5burner_v3)<br>
+---
 
 ### ソフト：インストールの流れ(ツール：M5 Burnerで実施。プログラム環境不要) ###
 1. [このM5Stack社のページ](https://docs.m5stack.com/en/download)より、自身のPC環境にあったM5BurnerをDownloadします<br>
