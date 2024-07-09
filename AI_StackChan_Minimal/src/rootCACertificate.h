@@ -1,7 +1,5 @@
 // certificate for https://api.openai.com
-// GlobalSign Root CA, valid until Fri Jan 28 2028, size: 1927 bytes 
-// https://gist.github.com/robo8080/d299ab2a560fc5fb78638c03e64de6d9
-
+// https://github.com/A-Uta/AI_StackChan_Minimal/blob/main/AI_StackChan_Minimal/src/rootCACertificate.h
 const char* root_ca_openai = \
 "-----BEGIN CERTIFICATE-----\n" \
 "MIICCTCCAY6gAwIBAgINAgPlwGjvYxqccpBQUjAKBggqhkjOPQQDAzBHMQswCQYD\n" \
