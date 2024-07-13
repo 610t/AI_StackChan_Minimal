@@ -75,6 +75,7 @@ Atom Echoだけでも動作します！が、以下のモノを組立てるこ�
 	- アカウント作成後、APIキーを発行します。APIキーは有料ですが、無料期間やクレジットがあります
 - Web版 VOICEVOX 
 	- [WEB版VOICEVOX API（高速）](https://voicevox.su-shiki.com/su-shikiapis/)の「こちらでapiKeyを生成してください」から取得できます
+	- [参考：WEB版VOICEVOX APIキーの取得/登録方法](https://zenn.dev/mongonta/articles/8aac1041c628d4)
 	- <B>注意：無料サービスのため、込み合っている時間には音声再生が途切れることがあります</B>
 	- [最新の話者ID一覧(ハミング未対応)](https://www.voicevox.su-shiki.com/voicevox-id)
 - Google Cloud Speech to Text
