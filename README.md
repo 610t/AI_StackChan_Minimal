@@ -1,6 +1,8 @@
 # AI_StackChan_Minimal
 AIスタックチャン - ミニマル(Minimal)です。robo8080さんの[AIｽﾀｯｸﾁｬﾝ2](https://github.com/robo8080/AI_StackChan2)および[ATOM Echo移植版](https://github.com/robo8080/M5Unified_AtomEcho_ChatGPT)をベースに<B>【誰でも気軽に遊べるような"おもちゃのｽﾀｯｸﾁｬﾝ"】</B>を目指しています(サーボ動作,ウェイクワード等除く)。「プログラムやIoTの勉強は、興味が出たら始める」でOKです！
 <br><br>
+==GPT-4o miniと多言語対応βを追加2024/7/19==
+<br><br>
 
 <img src="images/AI_StackChan_Minimal01.jpg" width="50%"><br>
 [![StackChan4ALL](images/StackChan4ALL.jpg)](https://x.com/robo8080/status/1781203208846860503)
