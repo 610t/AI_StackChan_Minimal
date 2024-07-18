@@ -19,15 +19,28 @@ Whisper::~Whisper() {
   client.stop();
 }
 
-String Whisper::Transcribe(AudioWhisper* audio) {
+/*** memo:
+ language=”ja”
+ language="en"
+ language="zh"
+ https://aismiley.co.jp/ai_news/what-is-whisper/
+   ***/
+
+// String Whisper::Transcribe(AudioWhisper* audio) {
+String Whisper::Transcribe(AudioWhisper* audio, String LANG_CODE) {
   char boundary[64] = "------------------------";
   for (auto i = 0; i < 2; ++i) {
     ltoa(random(0x7fffffff), boundary + strlen(boundary), 16);
   }
-  const String header = "--" + String(boundary) + "\r\n"
+  
+  /*** original ***/
+    // "Content-Disposition: form-data; name=\"language\"\r\n\r\nja\r\n"
+  // const String header = "--" + String(boundary) + "\r\n"
+
+  String header = "--" + String(boundary) + "\r\n"
     "Content-Disposition: form-data; name=\"model\"\r\n\r\nwhisper-1\r\n"
     "--" + String(boundary) + "\r\n"
-    "Content-Disposition: form-data; name=\"language\"\r\n\r\nja\r\n"
+    "Content-Disposition: form-data; name=\"language\"\r\n\r\n" + LANG_CODE + "\r\n"
     "--" + String(boundary) + "\r\n"
     "Content-Disposition: form-data; name=\"file\"; filename=\"speak.wav\"\r\n"
     "Content-Type: application/octet-stream\r\n\r\n";

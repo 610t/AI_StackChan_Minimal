@@ -3,7 +3,12 @@
 #include <base64.h>
 #include <ArduinoJson.h>
 
-String LANG_CODE = "ja-jp";
+/*** 
+ * memo: language pack
+ * https://learn.microsoft.com/ja-jp/windows-hardware/manufacture/desktop/available-language-packs-for-windows?view=windows-11
+ * https://dita-jp.org/webhelp-feedback/about_general_topic/topic_locale.html
+*/
+// String LANG_CODE = "ja-jp";  // Comment for Global language
 
 namespace {
 constexpr char* API_HOST = "speech.googleapis.com";
@@ -39,7 +44,8 @@ void CloudSpeechClient::PrintHttpBody2(Audio* audio) {
 //  Serial.printf("PrintHttpBody2=%d",len);
 }
 
-String CloudSpeechClient::Transcribe(Audio* audio) {
+// String CloudSpeechClient::Transcribe(Audio* audio) {
+String CloudSpeechClient::Transcribe(Audio* audio, String LANG_CODE) {  // Add for Global language
   String HttpBody1 = "{\"config\":{\"encoding\":\"LINEAR16\",\"sampleRateHertz\":16000,\"languageCode\":\""+LANG_CODE+"\"},\"audio\":{\"content\":\"";
   String HttpBody3 = "\"}}\r\n\r\n";
   int httpBody2Length = (audio->wavDataSize + sizeof(audio->paddedHeader))*4/3;  // 4/3 is from base64 encoding

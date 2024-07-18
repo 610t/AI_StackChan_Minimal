@@ -3,7 +3,8 @@
 
 //constexpr size_t record_number = 300/2;
 //constexpr size_t record_number = 400;
-constexpr size_t record_number = 220;
+// constexpr size_t record_number = 220;
+constexpr size_t record_number = 200;
 constexpr size_t record_length = 150;
 constexpr size_t record_size = record_number * record_length;
 constexpr size_t record_samplerate = 16000;

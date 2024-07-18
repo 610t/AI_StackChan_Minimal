@@ -16,7 +16,8 @@ class CloudSpeechClient {
 public:
   CloudSpeechClient(const char* root_ca, const char* api_key);
   ~CloudSpeechClient();
-  String Transcribe(Audio* audio);
+  // String Transcribe(Audio* audio);
+  String Transcribe(Audio* audio, String LANG_CODE);  // Add for Global language
 };
 
 #endif // _CLOUDSPEECHCLIENT_H

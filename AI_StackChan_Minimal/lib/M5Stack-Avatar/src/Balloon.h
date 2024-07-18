@@ -16,7 +16,7 @@ typedef std::string String;
 
 const int16_t TEXT_HEIGHT = 8;
 // const int16_t TEXT_SIZE = 2;
-const int16_t TEXT_SIZE = 3; // Adjust for SSD1306
+const int16_t TEXT_SIZE = 4; // Adjust for SSD1306
 const int16_t MIN_WIDTH = 40;
 // const int cx = 240;
 const int cx = 210; // Adjust for SSD1306
