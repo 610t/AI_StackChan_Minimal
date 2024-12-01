@@ -373,6 +373,9 @@ String TEXT_CHAT_HTML_POST = R"KEWL(
 				xhr.setRequestHeader("Content-Type", "text/plain;charset=UTF-8");
 				xhr.send(textAreaContent);
         alert("会話を送信しました！");
+        setTimeout(function(){
+          location.reload();
+        }, 10000); // 10000ms = 10sec
 			} else {
         alert("何か会話を入力してください");
 			}
