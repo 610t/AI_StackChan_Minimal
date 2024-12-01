@@ -73,6 +73,10 @@ String message_error = "";    // Add for Global language
 String message_cant_hear = ""; // Add for Global language
 String message_dont_understand = ""; // Add for Global language
 
+// HTMLに質問と答えを表示するために
+String question="";
+String answer="";
+
 /// 接続：Wifiは[スマホアプリ(EspTouch)]、また[APIキーはブラウザ]から設定します。
 
 /// I2C接続のピン番号 // Add for SSD1306
@@ -333,7 +337,7 @@ static const char MODEL_HTML[] PROGMEM = R"KEWL(
   </body>
 </html>)KEWL";
 
-static const char TEXT_CHAT_HTML[] PROGMEM = R"KEWL(
+String TEXT_CHAT_HTML_PRE = R"KEWL(
 <!DOCTYPE html>
 <html>
 <head>
@@ -356,7 +360,9 @@ static const char TEXT_CHAT_HTML[] PROGMEM = R"KEWL(
     <button type="submit">送信する</button>
     <button type="reset">リセットする</button>
     <button type="button" onclick="history.back()">戻る</button>
-	</form>
+	</form>)KEWL";
+
+String TEXT_CHAT_HTML_POST = R"KEWL(
 	<script>
 		function postData(event) {
 			event.preventDefault();
@@ -715,6 +721,7 @@ String chatGpt(String json_string) {
       const char* data = doc["choices"][0]["message"]["content"];
       Serial.println(data);
       response = String(data);
+      answer = response;
       std::replace(response.begin(),response.end(),'\n',' ');
     }
   } else {
@@ -820,6 +827,7 @@ String SpeechToText(bool isGoogle){
     delete cloudSpeechClient;
     delete audio;
   }
+  question=ret;
   return ret;
 }
 
@@ -1121,7 +1129,8 @@ void start_talking() {
 
 void handle_text_chat() {
   /// ファイルを読み込み、クライアントに送信する
-  server.send(200, "text/html", TEXT_CHAT_HTML);
+  TEXT_CHAT_HTML=TEXT_CHAT_HTML_PRE+"<br/>Question:"+question+"<br/>Answer:"+answer+TEXT_CHAT_HTML_POST;
+  server.send(200, "text/html", TEXT_CHAT_HTML.c_str());
 }
 void handle_text_chat_set() {
   /// POST以外は拒否
