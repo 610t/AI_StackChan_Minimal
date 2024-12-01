@@ -381,6 +381,8 @@ String TEXT_CHAT_HTML_POST = R"KEWL(
 </body>
 </html>)KEWL";
 
+String TEXT_CHAT_HTML="";
+
 static const char TOIO_HTML[] PROGMEM = R"KEWL(
 <!DOCTYPE html>
 <html>
@@ -827,7 +829,6 @@ String SpeechToText(bool isGoogle){
     delete cloudSpeechClient;
     delete audio;
   }
-  question=ret;
   return ret;
 }
 
@@ -1060,6 +1061,7 @@ void start_talking() {
   } else {
       ret = TEXTAREA;
   }
+  question=ret;
   // テキスト入力を初期化
   TEXTAREA = "";
   
