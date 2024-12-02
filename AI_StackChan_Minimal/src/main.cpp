@@ -726,7 +726,6 @@ String chatGpt(String json_string) {
       const char* data = doc["choices"][0]["message"]["content"];
       Serial.println(data);
       response = String(data);
-      answer = response;
       std::replace(response.begin(),response.end(),'\n',' ');
     }
   } else {
@@ -738,6 +737,7 @@ String chatGpt(String json_string) {
     avatar.setSpeechText("");
     avatar.setExpression(Expression::Neutral);
   }
+  answer = response;
   return response;
 }
 
